@@ -13,6 +13,7 @@ public class ResultsApp {
 		System.out.println(Results.totalMarks());
 		System.out.print("Your average percentage is: ");
 		System.out.println(Results.resultsPercentage());
+		System.out.println(" ");
 		System.out.println("Well done, you're forgettable!");
 
 	}
