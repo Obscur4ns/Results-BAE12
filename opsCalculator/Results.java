@@ -15,7 +15,7 @@ public class Results {
 
 	public static double resultsPercentage() {
 		Total = Physics + Chemistry + Biology;
-		Percentage = (Total * 100) / 450;
+		Percentage = (Total * 100) / 450.0;
 		return Percentage;
 
 	}
