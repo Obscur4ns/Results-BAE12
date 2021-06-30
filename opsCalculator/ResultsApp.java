@@ -15,7 +15,10 @@ public class ResultsApp {
 		System.out.print(Results.resultsPercentage());
 		System.out.println("%");
 		System.out.println(" ");
-		System.out.println("Well done, you're forgettable!");
+		if (Results.resultsPercentage() < 40)
+			System.out.println("Well done, you're forgettable!");
+		else if (Results.resultsPercentage() > 40)
+			System.out.println("Well done, you're better than average!");
 
 	}
 
